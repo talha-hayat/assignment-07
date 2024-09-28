@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+ul{
+     border-bottom:1px solid white ;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.boxxy{
+    color: white;
+    border: none;
+    font-size: xx-large;
+    position: relative;
+    top: 38px;
+    right: 550px;
+}
+.multiple{
+     /* border-bottom:1px solid white ; */
+    position: relative;
+    top: 1px;
+  left: 130px;
+    /* justify-self: flex-end; */
+}
+#large-pg{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+p{
+    color: white;
+}
+#small{
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+.btn{
+   color: black;
+    position: relative;
+    top: 70px;
+    left: 50px;
+    border-width: 100px;
+    border: 20px solid yellow;
+    background-color: yellow;
+    padding-left: 10px; 
+    font-size: larger;
+    z-index: 1;
+
+}
+#pic{
+    display: flex;
+    justify-content: end;
+ 
+    position: relative;
+    bottom: 390px;
+    left: 420px;
+    z-index: 0;
+    height: 700px;
+}
